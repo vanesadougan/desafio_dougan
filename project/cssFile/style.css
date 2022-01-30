@@ -64,12 +64,66 @@ color: white;
   margin: auto;
 }
 
+#reglamento h3{
+  
+    margin-block-start: 30px;
+    margin-left: 10px;
+    
+}
+
+
+#reglamento h4{
+margin-block-start: 30px;
+margin-left: 20px;
+font-weight: normal;
+}
+
+#reglamento ul{
+  margin-block-start: 30px;
+  margin-left: 40px;
+
+}
+
+#reglamento ol{
+  margin-block-start: 30px;
+  margin-left: 30px;
+
+}
+
+
+
+th,td{
+  text-align:center;
+  padding:5px 0;
+}
+
+th{
+  background-color: coral;
+ color:white;
+ padding: 5px;
+}
+
+td{
+  background-color: orange;
+}
+
+.formulario td{
+
+  background-color: white;
+}
+
+.formulario td{
+  text-align:left;
+  padding:5px 0;
+}
+
 footer{
 
   background-color: #333;
   color: white;
   text-align: center;
-  height: 70px;
+  height: 50px;
   width: 80%;
   margin: auto;
 }
+
