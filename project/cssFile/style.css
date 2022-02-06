@@ -10,21 +10,68 @@ body{
   background-color: black;
 }
 
+
+
+
 .menuprincipal {
-    background-color: #333;
+  background-color: rgb(233, 92, 92);
     overflow: hidden;
-    width: 80%;
     margin: auto;
+    position: sticky;
+    top: 0px;
+    width: 1180px;
+   
+}
+
+
+
+ul {
+  list-style: none;
+  font-size:0; /* truco por el uso de inline-block*/
+}
+
+li {
+  display: inline;
+  position:relative;
+
+}
+
+
+ul ul {
+  position: absolute;
+  display: none;
+}
+ul ul li {
+  display: block;
+  width: 200px;
+  padding: 50px;
+}
+
+ul li:hover ul {
+	
+   display:block;
+   background-color: blue;
+}
+
+
+
+
+.menuprincipal img{
+  display:inline;
+  float: right;
+  padding: 10px;
+}
+
   
-  }
   .menuprincipal a {
+    position: relative;
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 31px 20px;
     text-decoration: none;
     font-size: 17px;
-    background-color: #333;
+    background-color: rgb(233, 92, 92);
   }
 
   .menuprincipal a:hover {
@@ -40,7 +87,7 @@ color: white;
 
 .titulo{
   background-color: #04AA6D;
-  width: 80%;
+  width: 1180px;
   height: 50px;
   font-size:xx-large;
   font-family: cursive;
@@ -49,19 +96,69 @@ color: white;
 
 }
 
+
 .encabezado
 {
-  width: 80%;
+  /*display: block;*/
+  background-color: green;
+  align-items: center;
+}
+
+.headerimg
+{
+  display: block;
+  align-items: center;
+  align-content: center;
   margin: auto;
+  width: 1180px;
+  padding: 0px;
+  
+  
 }
 
 
+iframe
+{
+  display: block;
+  background-color: red;
+}
+
+.novedades {
+  width: 500px;
+  height: 300px;
+  background-color: black;
+  overflow: auto;
+  display: block;
+}
+
+
+.novedadesTitulo
+{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 50px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+
+.novedadesDescripcion
+
+{
+  width: 400px;
+  margin: auto;
+  text-align: justify;
+  color:white;
+}
 
 .contenido
 {
   background-color: white;
-  width: 80%;
+  width: 1180px;
   margin: auto;
+  text-align: center;
+  
+
 }
 
 #reglamento h3{
@@ -119,11 +216,11 @@ td{
 
 footer{
 
-  background-color: #333;
+  background-color:rgb(233, 92, 92);
   color: white;
   text-align: center;
   height: 50px;
-  width: 80%;
+  width: 1180px;
   margin: auto;
 }
 
