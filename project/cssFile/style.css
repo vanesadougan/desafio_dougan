@@ -25,12 +25,12 @@ body{
 
 
 
-ul {
+.menuprincipal ul {
   list-style: none;
   font-size:0; /* truco por el uso de inline-block*/
 }
 
-li {
+.menuprincipal li {
   display: inline;
   position:relative;
 
@@ -116,19 +116,13 @@ color: white;
   
 }
 
-
-iframe
-{
-  display: block;
-  background-color: red;
-}
-
 .novedades {
   width: 500px;
   height: 300px;
   background-color: black;
   overflow: auto;
   display: block;
+
 }
 
 
@@ -151,32 +145,46 @@ iframe
   color:white;
 }
 
-.contenido
+.contenidoEncabezado
 {
   background-color: white;
   width: 1180px;
   margin: auto;
   text-align: center;
   
+}
 
+.contenidoHome
+{
+  display: flex;
+}
+
+
+.contenido
+{
+  background-color: white;
+  width: 1180px;
+  margin: auto;
+  
+  
 }
 
 #reglamento h3{
-  
-    margin-block-start: 30px;
+    line-height: 50px;
     margin-left: 10px;
     
 }
 
 
 #reglamento h4{
-margin-block-start: 30px;
+  line-height: 30px;
+/*margin-block-start: 30px;*/
 margin-left: 20px;
 font-weight: normal;
 }
 
 #reglamento ul{
-  margin-block-start: 30px;
+  line-height: 30px;
   margin-left: 40px;
 
 }
